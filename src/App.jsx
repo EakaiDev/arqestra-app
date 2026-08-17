@@ -452,7 +452,7 @@ function VexMobile() {
         </defs>
       </svg>
       <h1 className="sc-hjsqBZ sc-ejdXBC sc-hNeXkk bCnYXB dAGPhR fSEwMe">
-        arqestra.xyz mobile coming soon
+        arqestra.fun mobile coming soon
       </h1>
     </>
   );
