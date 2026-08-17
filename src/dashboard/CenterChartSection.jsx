@@ -365,7 +365,7 @@ const series = useMemo(() => {
                 tick={{ fill: "var(--text-muted)", fontSize: 11 }}
                 axisLine={{ stroke: "var(--card-border)" }}
                 tickLine={false}
-                interval={Math.floor(series.length / 7)}
+                interval={(Math.floor(series.length > 25 ? series.length / 12 : series.length / 7))}
               />
               <YAxis hide domain={["dataMin - 5", "dataMax + 10"]} />
               <Tooltip
