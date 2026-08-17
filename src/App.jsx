@@ -466,7 +466,7 @@ function Footer() {
           <div
             className="footer-link"
             onClick={() =>
-              window.open("https://x.com/Valeynx_xyz", "_blank")
+              window.open("https://x.com/arqestra", "_blank")
             }
           >
             <svg
@@ -483,7 +483,7 @@ function Footer() {
           </div>
           <div
             className="footer-link"
-            onClick={() => window.open("https://medium.com/@Arqestra", "_blank")}
+            onClick={() => window.open("https://arqestra.medium.com/", "_blank")}
           >
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 -55 256 256" version="1.1" preserveAspectRatio="xMidYMid">
     <g>
