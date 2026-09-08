@@ -9,7 +9,7 @@ export default function MyPositions({ setIsConnectActive, setCurrentRoute }) {
     <>
       <div className="positions-container">
         <div className="background_radial"></div>
-        <img src="/wallet.png" className="position-wallet"/>
+        <img src="/wallet.png" className="position-wallet purpleImg"/>
         <div className="positions-title">You don't have any position yet</div>
         <div className="positions-subtitle">
           Start backing experienced traders, to build your investment portfolio
@@ -28,7 +28,7 @@ export default function MyPositions({ setIsConnectActive, setCurrentRoute }) {
               viewBox="0 0 101 82"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="sc-beqWaB cHmvy"
+              className="sc-beqWaB cHmvy purpleImg"
             >
               <g filter="url(#user-with-cursor-neon_svg__a)">
                 <path
@@ -169,7 +169,7 @@ export default function MyPositions({ setIsConnectActive, setCurrentRoute }) {
               viewBox="0 0 91 70"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="sc-beqWaB cHmvy"
+              className="sc-beqWaB cHmvy "
             >
               <g filter="url(#pulse-neon_svg__a)">
                 <path

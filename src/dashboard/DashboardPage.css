@@ -1,15 +1,14 @@
 /* DashboardPage.css */
 
 :root {
-  --primary-blue: #046fcb;
-  --accent-blue: #0071d7;
+  --primary-blue: #9340F4;
+  --accent-blue: #9340F4;
   --bg-dark: #0b0c10;
   --card-bg: #13151b;
   --card-border: #212530;
   --text-main: #ffffff;
   --text-muted: #9ba1a6;
-  --blue-glow: #8a2be2;
-  --blue-glow: #0088ff;
+  --blue-glow: #9340F4;
 }
 
 body {
@@ -55,7 +54,7 @@ body {
   transform: translateX(-50%);
   width: 140px;
   height: 140px;
-  background: radial-gradient(circle, rgba(0, 113, 215, 0.35) 0%, rgba(4, 111, 203, 0.1) 60%, transparent 100%);
+  background: radial-gradient(circle, rgba(147, 64, 244, 0.35) 0%, rgba(147, 64, 244, 0.1) 60%, transparent 100%);
   filter: blur(35px);
   z-index: 1;
   pointer-events: none;
@@ -67,7 +66,7 @@ body {
   transform: translateX(-50%);
   width: 400px;
   height: 700px;
-  background: radial-gradient(circle, rgba(0, 113, 215, 0.25) 0%, rgba(4, 111, 203, 0.1) 60%, transparent 100%);
+  background: radial-gradient(circle, rgba(147, 64, 244, 0.25) 0%, rgba(147, 64, 244, 0.1) 60%, transparent 100%);
   filter: blur(35px);
   z-index: 1;
   pointer-events: none;
@@ -90,12 +89,12 @@ body {
   height: 72px;
   border-radius: 50%;
   padding: 3px;
-  background: linear-gradient(135deg, #046fcb, #0071d7);
+  background: linear-gradient(135deg, #9340F4, #9340F4);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
-  box-shadow: 0 4px 12px rgba(4, 111, 203, 0.2);
+  box-shadow: 0 4px 12px rgba(147, 64, 244, 0.2);
 }
 
 .vault-avatar {
@@ -497,8 +496,8 @@ body {
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 999px;
-  background: rgba(4, 111, 203, 0.12);
-  border: 1px solid rgba(4, 111, 203, 0.35);
+  background: rgba(147, 64, 244, 0.12);
+  border: 1px solid rgba(147, 64, 244, 0.35);
   color: var(--text-main);
 }
 .watchlist-chip img {
@@ -661,7 +660,7 @@ body {
 
 .connect-wallet-btn {
   width: 100%;
-  background: linear-gradient(135deg, #0071d7, #046fcb);
+  background: linear-gradient(135deg, #9340F4, #9340f4);
   color: #ffffff;
   border: none;
   padding: 12px;
@@ -670,7 +669,7 @@ body {
   margin-top: 5px;
   cursor: pointer;
   transition: opacity 0.2s;
-  box-shadow: 0 4px 12px rgba(4, 111, 203, 0.25);
+  box-shadow: 0 4px 12px rgba(147, 64, 244, 0.25);
 }
 
 .connect-wallet-btn:hover {
@@ -702,7 +701,7 @@ body {
 }
 
 .deposit-input:focus {
-  border-color: #046fcb;
+  border-color: #9340f4;
 }
 
 .currency-tag {
@@ -715,7 +714,7 @@ body {
 
 .deposit-submit-btn {
   width: 100%;
-  background: linear-gradient(135deg, #0071d7, #046fcb);
+  background: linear-gradient(135deg, #9340F4, #9340f4);
   color: #ffffff;
   border: none;
   padding: 10px;
