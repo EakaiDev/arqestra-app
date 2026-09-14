@@ -437,7 +437,7 @@ const series = useMemo(() => {
       <div className="pulse-panel">
         <div className="pulse-header">
           <span className="pulse-icon">〰️</span>
-          <span className="pulse-title">Arqestra pulse</span>
+          <span className="pulse-title">Costellar pulse</span>
           <span className="info-dot" title="Community sentiment snapshot">
             ?
           </span>
