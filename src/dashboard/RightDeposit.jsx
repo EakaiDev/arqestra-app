@@ -89,7 +89,7 @@ const VaultStatsSidebar = ({ data, userData, rightRange }) => {
 
 
   const copyTokenUrl = async () => {
-    const url = "https://vexaris-app.vercel.app/"
+    const url = "https://app.arqestra.fun/"
   const separator = url.includes('?') ? '&' : '?';
   const copyUrl = `${url}${separator}tokenName=${encodeURIComponent(data.title)}`;
   console.log(copyUrl)
