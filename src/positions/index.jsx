@@ -324,8 +324,8 @@ export default function MyPositions({ setIsConnectActive, setCurrentRoute }) {
 
         <div style={{display:"flex", alignItems:"center",gap:"0.5rem", marginTop:"1rem"}}>
           <p className=" footer-grey"> <BiLock style={{display:"inline"}}/> Secure. Transparent. Build for traders</p>
-          <a href="https://www.arqestra.fun/">
-            <p className=" footer-blue">Learn more about Arqestra <BsArrowRight style={{display:"inline"}}/></p>
+          <a href="https://www.costellar.xyz/">
+            <p className=" footer-blue">Learn more about Costellar <BsArrowRight style={{display:"inline"}}/></p>
           </a>
         </div>
         {/* <div

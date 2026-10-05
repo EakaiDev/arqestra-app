@@ -1,5 +1,5 @@
-# Arqestra App
+# Costellar App
 
-Production: https://app.arqestra.fun/
+Production: https://app.costellar.xyz/
 
 Run `npm ci` and `npm run build` to build the Vite frontend.

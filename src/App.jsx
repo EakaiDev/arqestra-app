@@ -121,7 +121,7 @@ function ConnectOverlay({ isConnectActive, setIsConnectActive, setUserData }) {
               <div className="cwc-ml-svg">
                 <img src="/android-chrome-512x512.png" alt="" />
               </div>
-              Arqestra
+              Costellar
             </div>
             <div
               className={`cwc-metamask ${isFetching ? "hidden" : ""}`}
@@ -452,7 +452,7 @@ function VexMobile() {
         </defs>
       </svg>
       <h1 className="sc-hjsqBZ sc-ejdXBC sc-hNeXkk bCnYXB dAGPhR fSEwMe">
-        arqestra.fun mobile coming soon
+        costellar.xyz mobile coming soon
       </h1>
     </>
   );
@@ -466,7 +466,7 @@ function Footer() {
           <div
             className="footer-link"
             onClick={() =>
-              window.open("https://x.com/arqestra", "_blank")
+              window.open("https://x.com/costellar", "_blank")
             }
           >
             <svg
@@ -518,7 +518,7 @@ function Navbar({
               fill="#9340F4"
             ></path>
           </svg>
-          Arqestra
+          Costellar
           <div
             style={{
               fontSize: "16px",
